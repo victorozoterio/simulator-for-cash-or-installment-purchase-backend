@@ -1,6 +1,6 @@
 import { DocumentBuilder } from '@nestjs/swagger';
 
 export const swaggerConfig = new DocumentBuilder()
-  .setTitle('ms-template')
-  .setDescription('Documentação do app back-end do ms-template.')
+  .setTitle('Simulator for cash or installment purchase')
+  .setDescription('Documentação do app back-end do simulator for cash or installment purchase.')
   .build();

@@ -1,24 +1,24 @@
-<h1 align="center" style="font-weight: bold;">ms-template</h1>
+<h1 align="center" style="font-weight: bold;">Simulator for cash or installment purchase</h1>
 
 <p align="center">
  <a href="#technologies">Technologies</a> • 
  <a href="#description">Description</a> • 
  <a href="#installation">Installation</a> •
  <a href="#autor">Autor</a> •
- <a href="#contribute">Contribute</a> •
+ <a href="#contribute">Contribute</a>
 </p>
 
 <h2 id="technologies">💻 Technologies</h2>
 
-![Static Badge](https://img.shields.io/badge/typescript%20-%20%233178C%20?style=for-the-badge&logo=typescript&color=%23000000) ![Static Badge](https://img.shields.io/badge/fastify%20-%20%23000000?style=for-the-badge&logo=fastify&color=%23000000) ![Static Badge](https://img.shields.io/badge/knex%20-%20%23D26B38?style=for-the-badge&logo=knexdotjs&color=%23000000) ![Static Badge](https://img.shields.io/badge/zod%20-%20%233E67B1?style=for-the-badge&logo=zod&logoColor=%233E67B1&color=%23000000) ![Static Badge](https://img.shields.io/badge/sqlite%20-%20%233E67B1?style=for-the-badge&logo=sqlite&logoColor=%233E67B1&color=%23000000) ![Static Badge](https://img.shields.io/badge/vitest%20-%20%236E9F18?style=for-the-badge&logo=vitest&logoColor=%236E9F18&color=%23000000)
+![Static Badge](https://img.shields.io/badge/typescript%20-%20%233178C%20?style=for-the-badge&logo=typescript&color=%23000000) ![Static Badge](https://img.shields.io/badge/nestjs%20-%20%23E0234E?style=for-the-badge&logo=nestjs&logoColor=%23E0234E&color=%23000000)
 
 <h2 id="description">📚 Description</h2>
 
-ms-template 
+Back-end application of the simulator for cash or installment purchase. This application helps you decide whether to pay for a purchase in cash or in installments and invest the remaining amount. It takes into account the current Selic rate, taxes applied to the investment income and costs when withdrawing the investment. The simulation considers the return on a CDB with daily liquidity (100% of the CDI) and how taxes influence the final value, when withdrawing the amount invested monthly. This way, you can accurately compare which option results in a better financial return, considering both the investment interest and the taxes when withdrawing the amount invested. 
 
 <h2 id="installation">⚙️ Installation</h2>
 
-- 1: Clone this repository: `git clone ms-template`;
+- 1: Clone this repository: `git clone https://github.com/victorozoterio/simulator-for-cash-or-installment-purchase-backend.git`;
 - 2: Create a `.env` file from the `.env.example` file;
 - 3: Fill in all the necessary variables in the `.env`;
 - 4: Install the dependencies, running the command: `npm install`;
@@ -42,5 +42,5 @@ ms-template
 
 <h2 id="contribute">🚀 Contribute</h2>
 
-1. Clone this repository: `git clone ...`;
+1. Clone this repository: `git clone https://github.com/victorozoterio/simulator-for-cash-or-installment-purchase-backend.git`;
 2. Create feature/branch: `git checkout -b feature/NAME`
