@@ -19,7 +19,7 @@ export class CalculatorService {
     const selicRate = await this.getSelicRate();
     const monthlySelicRate = (1 + selicRate / 100) ** (1 / 12) - 1;
 
-    let balance = dto.cashValue;
+    let balance = dto.cashValue - dto.installmentValue;
     let totalEarnings = 0;
     let result = '';
 
