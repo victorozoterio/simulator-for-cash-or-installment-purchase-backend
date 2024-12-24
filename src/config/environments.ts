@@ -1,5 +1,5 @@
 import { ConfigModuleOptions } from '@nestjs/config';
-import { Environments } from 'src/utils';
+import { Environments } from '../utils';
 import * as Joi from 'joi';
 
 const environments = Object.values(Environments);
